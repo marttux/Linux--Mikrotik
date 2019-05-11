@@ -7,3 +7,11 @@ Jinak ještě jedna věc .. pokud to budete chtít řídit trochu více pouště
 
 
 PS > Pozor vypne ADMIN učet  pokud si nezakomentujete řádek a uříznete si link tak jste v prd******
+
+
+
+
+adduserpass	
+connect-password	
+linux-script-mikrotik-add-user.sh
+mikrotik-ip-list-rs

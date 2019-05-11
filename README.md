@@ -10,8 +10,9 @@ PS > Pozor vypne ADMIN učet  pokud si nezakomentujete řádek a uříznete si l
 
 
 
+#### Pro tento script je nutne stahnout ####
+Linux-script-mikrotik-add-user.sh   -- spoustec
+adduserpass	 --  sem uzviatele a hesl
+connect-password	--heslo pro komunikaci SSH / Nebo klic 
+mikrotik-ip-list-rs  -- ip list mikrotiku 
 
-adduserpass	
-connect-password	
-linux-script-mikrotik-add-user.sh
-mikrotik-ip-list-rs

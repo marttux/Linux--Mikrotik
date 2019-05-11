@@ -15,4 +15,8 @@ Linux-script-mikrotik-add-user.sh   -- spoustec
 adduserpass	 --  sem uzviatele a hesl
 connect-password	--heslo pro komunikaci SSH / Nebo klic 
 mikrotik-ip-list-rs  -- ip list mikrotiku 
+Vytovrit adresar --> logrspass   <--- semka se pak posilaji logy :) 
 
+
+
+Mart 

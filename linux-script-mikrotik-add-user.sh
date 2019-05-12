@@ -34,7 +34,7 @@ for (( i=0; i<${#IPLIST[@]}; i++ ));
 do
 HOSTIP=${IPLIST[$i]}
 echo  >>$LOGFILE
-echo $HOSTIP `ip-%fromhost-ip%-%hostname%-%$YEAR%-%$MONTH%.log` `date +%Y%m%d%H%M%S` >>$LOGFILE
+echo $HOSTIP `ip-%fromhost-ip%-%hostname%-%$YEAR%-%$MONTH%` `date +%Y%m%d%H%M%S` >>$LOGFILE
 #uzivatel1
 sshpass -p $PASSWORD ssh $LOGIN@$HOSTIP -p $SSHPORT -o StrictHostKeyChecking=no 'user add group=full name='$jmeno1 'password='$heslo1 >>$LOGFILE  2>>$LOGFILE
 #uzivatel2

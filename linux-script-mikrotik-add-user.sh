@@ -21,7 +21,6 @@ heslo5=$(awk 'NR == 20' adduserpass) # v tomto fajlu to nacita radek 20 ##
 #SSHPORT=22   ### semka staticky port SSH #### 
 SSHPORT=22
 #SSHPORT=23456  ### Porty muzou byt samozrejme ruzne :)     
-#FTPPORT=21021  #nn FTP nepouzivat rozmrda to vse 
 IPLISTFILE=/test/mikrotik-ip-list-rs #tady se zadavaji IP do kterejch sype pak mikrotik data soubor "mikrotik-list-pass"  POZOR at je ta cesta DOBRE !!!   :) 
 LOGFILE=/test/logrspass/logrspass.log #proste log
 index=0                      ##### odsud promene nacitani IP adres odkud se maji nacitat jednotlive Mikrotiky za sebou :) 
